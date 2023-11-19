@@ -1,15 +1,11 @@
 <div id="top"></div>
 
-## プロジェクト
-
-基板付き書籍「自分で作るArduino Uno 互換ボード」（出版社：ラトルズ）掲載プログラム
-
 ## 使用技術
 
 <p style="display: inline">
   <img src="https://img.shields.io/badge/-Cplusplus-00599C.svg?logo=cplusplus&style=plastic">
-  <img src="https://img.shields.io/badge/-Cplusplus-00599C.svg?logo=cplusplus&style=plastic">
-  <img src="https://img.shields.io/badge/-Cplusplus-00599C.svg?logo=cplusplus&style=plastic">
+  <img src="https://img.shields.io/badge/-Arduino-00979D.svg?logo=arduino&style=plastic">
+  <img src="https://img.shields.io/badge/-Github-181717.svg?logo=github&style=plastic">
 </p>
 
 ## 目次
@@ -21,8 +17,10 @@
 
 ## プロジェクトについて
 
-「自分で作るArduino Uno 互換ボード」掲載プログラムをダウンロードできます。
-「<>Codeボタン」→「Download ZIP」を選択してください
+基板付き書籍「自分で作るArduino Uno 互換ボード」（出版社：ラトルズ）掲載プログラム<br>
+<br>
+プログラムをダウンロードできます。<br>
+「<>Codeボタン」→「Download ZIP」を選択してください<br>
 
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
@@ -37,24 +35,33 @@ Arduino IDE(https://www.arduino.cc/en/software)<br>
 
 
 ### CH340ドライバインストール
+
 標準搭載PCが増えてきましたが、標準搭載でなかった場合、下記をダウンロード・インストールしてください。<br>
 CH340ドライバ(https://www.wch.cn/downloads/CH341SER_ZIP.html)<br>
 
 
 ### ボード設定
 
+ツール→ボード→Arduino AVR Boards→Arduino Uno<br>
+を選択してください<br>
+
+
+### ポート設定
+
+ツール→ポート<br>
+で、出てきたポートを選択してください。<br>
+
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
 ## ディレクトリ構成
 
-<!-- Treeコマンドを使ってディレクトリ構成を記載 -->
-
-❯ tree -a -I "node_modules|.next|.git|.pytest_cache|static" -L 2
+<pre>
 .
 ├── 03_Lchika
 │   └── 03_Lchika.ino
 ├── LICENSE
 └── README.md
+</pre>
 
 <p align="right">(<a href="#top">トップへ</a>)</p>
 
